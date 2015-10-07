@@ -6,9 +6,10 @@ body{
 	background-color: white;
 	margin-left: 15%;
 	margin-right: 15%;
+	overflow:hidden;
 }
 #body2{
-	overflow: hidden
+	overflow: hidden;
 }
 
 #Link{
