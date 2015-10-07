@@ -6,7 +6,7 @@ body{
 	background-color: white;
 	margin-left: 15%;
 	margin-right: 15%;
-	overflow:hidden;
+	overflow: hidden;
 }
 #body2{
 	overflow: hidden;
@@ -65,12 +65,6 @@ img{
 	font-size: 14pt;
 	color:#B7B7B7;
 }
-.profile:hover{
-	background-color: #ffff00;
-}
-
-#Edu:hover{background-color: #ffff00;}
-#FavoritM:hover{background-color: #ffff00;}
 
 div > *:hover:not(div){
 	background-color:#ffff00;
