@@ -98,8 +98,7 @@ select * from student where major = "Computer Science";
 select student_id, year, major from student;
 select * from student where year = 3;
 select * from student where year = 1 OR year = 2;
-select * from student where dept_no = (select dept_no from department where dept_name ="Business Administration");
-
+select * from student s join department d ON s.dept_no = d.dept_no where dept_name ="Business Administration";
 /* ex5 */
 select * from student where student_id LIKE '%2007%';
 select * from student ORDER BY student_id;
