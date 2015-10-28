@@ -80,8 +80,8 @@ update department
 set dept_name = "Electronic and Electrical Engineering"
 where dept_name = "Electronic Engineering";
 
-insert into department
-	values	(6,'Education', 'Educaion building', '02-3290-2347');
+insert into department(dept_name,office,office_tel)
+	values	('Education', 'Educaion building', '02-3290-2347');
 
 update student
 set major = "Education"
